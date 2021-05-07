@@ -87,7 +87,7 @@ exports.addCategory = async (req, res) => {
           });
           res.status(200).json({
             status: true,
-            msg: `Category Deleted with categoryId ${categoryId} & associated products successfully`,
+            msg: `Category & associated products Deleted successfully categoryId: ${categoryId}`,
           });
         }
       }
