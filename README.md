@@ -1,5 +1,5 @@
 # appinessProject
-This project code have solution of task-2 :  Delete associated products in products table when admin deletes one category. 
+Solution of task-2 :  Delete associated products in products table when admin deletes one category. 
 
 Steps to Run the Code:
 
@@ -8,7 +8,8 @@ Steps to Run the Code:
 3. Start server : npm start
 
 For verifying project in postman 
-1. First Add category : 
+
+1. Add category : 
 API: URL:http://127.0.0.1:3000/api/addcategory 
     method: post
     body: {
